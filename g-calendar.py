@@ -135,7 +135,7 @@ def main():
 
   try:
     print('########   use gsheet #############')
-    #OAuth2の資格情報を使用してGoogle APIにログインします。
+    #OAuth2 login
     gc = gspread.authorize(credentials)
     workbook = gc.open_by_key('1qqsdubleCo2HxQagmU6jk3whBZGUAVxqbRYkOkrjQx0')
 
